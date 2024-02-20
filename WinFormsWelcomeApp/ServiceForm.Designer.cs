@@ -1,14 +1,14 @@
 ﻿namespace WinFormsWelcomeApp
 {
-    partial class FormMain
+    partial class ServiceForm
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -33,24 +33,22 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Red;
-            button1.Location = new Point(253, 271);
+            button1.Location = new Point(164, 239);
             button1.Name = "button1";
-            button1.Size = new Size(284, 105);
+            button1.Size = new Size(190, 82);
             button1.TabIndex = 0;
             button1.Text = "button1";
-            button1.UseVisualStyleBackColor = false;
+            button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // FormMain
+            // ServiceForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(529, 411);
             Controls.Add(button1);
-            Name = "FormMain";
-            Text = "My Visual Studio App";
-            Load += FormMain_Load;
+            Name = "ServiceForm";
+            Text = "ServiceForm";
             ResumeLayout(false);
         }
 
